@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Overpass';
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%) ;
+    color: white;
+    height: 350px;
+    width: 360px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.star{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: hsl(217, 12%, 63%);
+}
+.numbers {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    
+}
+
+button{
+    height: 40px;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color:hsl(25, 97%, 53%) ;
+}
+
+.numbers div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(217, 12%, 63%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+
+}
